@@ -1,0 +1,38 @@
+* {
+	font-family: 'roboto', sans-serif;
+}
+
+.digit,
+.operator {
+	border: 1px solid black;
+	width: 30px;
+	display: flex;
+	justify-content: center;
+}
+
+.digits,
+.operators {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 10px;
+}
+
+.operators {
+	display: flex;
+	flex-direction: column;
+}
+
+button {
+	padding: 10px 30px 10px 30px;
+}
+
+.display {
+	margin: 10px;
+	display: flex;
+	justify-content: center;
+}
+
+.buttons {
+	display: flex;
+	flex-direction: row;
+}
