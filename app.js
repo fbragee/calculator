@@ -14,3 +14,7 @@ divide = (a, b) => {
 let firstNum;
 let secondNum;
 let operator;
+
+operate = (op, a, b) => {
+	return op(a, b);
+};
