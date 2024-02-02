@@ -4,12 +4,14 @@
 
 .digit,
 .operator {
-	border: 1px solid black;
 	width: 30px;
 	display: flex;
 	justify-content: center;
+	align-items: center;
 }
-
+.digits {
+	width: 200px;
+}
 .digits,
 .operators {
 	display: flex;
