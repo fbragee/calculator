@@ -14,31 +14,31 @@
 	</head>
 	<body>
 		<div class="calculator">
-			<h1 class="display">0</h1>
+			<div class="display">
+				<div data-previous-operand class="previous-operand"></div>
+				<div data-current-operand class="current-operand"></div>
+			</div>
 			<div class="buttons">
-				<div class="digits">
-					<button class="digit digit1" value="1">1</button>
-					<button class="digit digit2" value="2">2</button>
-					<button class="digit digit3" value="3">3</button>
-					<button class="digit digit4" value="4">4</button>
-					<button class="digit digit5" value="5">5</button>
-					<button class="digit digit6" value="6">6</button>
-					<button class="digit digit7" value="7">7</button>
-					<button class="digit digit8" value="8">8</button>
-					<button class="digit digit9" value="9">9</button>
-					<button class="digit digit0" value="0">0</button>
-				</div>
-				<div class="operators">
-					<button class="operator plus" value="+">+</button>
-					<button class="operator minus" value="-">-</button>
-					<button class="operator times" value="X">X</button>
-					<button class="operator divide" value="/">/</button>
-					<button class="operator equal" value="=">=</button>
-					<button class="clear" value="Clear">Clear</button>
-				</div>
+				<button data-all-clear class="key double">AC</button>
+				<button data-delete class="key">DEL</button>
+				<button data-operation class="key">÷</button>
+				<button data-number class="key">1</button>
+				<button data-number class="key">2</button>
+				<button data-number class="key">3</button>
+				<button data-operation class="key">*</button>
+				<button data-number class="key">4</button>
+				<button data-number class="key">5</button>
+				<button data-number class="key">6</button>
+				<button data-operation class="key">+</button>
+				<button data-number class="key">7</button>
+				<button data-number class="key">8</button>
+				<button data-number class="key">9</button>
+				<button data-operation class="key">-</button>
+				<button data-number class="key">.</button>
+				<button data-number class="key">0</button>
+				<button data-equals class="key double">=</button>
 			</div>
 		</div>
-
 		<script src="app.js"></script>
 	</body>
 </html>
